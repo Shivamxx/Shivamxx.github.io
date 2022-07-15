@@ -115,3 +115,21 @@ nav ul li{
     transition: opacity 0.4s ease-in;
 }
 
+@media only screen and (max-width: 400px) {
+    .songInfo{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 400px){
+    .songItem{
+        font-size: smaller;
+    }
+  }
+  
+    @media only screen and (max-width: 376px) {
+    nav ul li{
+        display: none;
+    }
+  }
+
